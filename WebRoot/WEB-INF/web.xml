@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+   
+  
+  
+    <servlet-name>indexTempaction</servlet-name>
+    <servlet-class>com.iamsee.action.indexTempaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginaction</servlet-name>
+    <servlet-class>com.iamsee.action.loginaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>createdocaction</servlet-name>
+    <servlet-class>com.iamsee.action.createdocaction</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>admindoaction</servlet-name>
+    <servlet-class>com.iamsee.action.admindoaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showdocsaction</servlet-name>
+    <servlet-class>com.iamsee.action.showdocsaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dodocsaction</servlet-name>
+    <servlet-class>com.iamsee.action.dodocsaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dopageaction</servlet-name>
+    <servlet-class>com.iamsee.action.dopageaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changedocaction</servlet-name>
+    <servlet-class>com.iamsee.action.changedocaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changepwdaction</servlet-name>
+    <servlet-class>com.iamsee.action.changepwdaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>domenuaction</servlet-name>
+    <servlet-class>com.iamsee.action.domenuaction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>indexTempaction</servlet-name>
+    <url-pattern>/servlet/indexTempaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginaction</servlet-name>
+    <url-pattern>/servlet/loginaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>createdocaction</servlet-name>
+    <url-pattern>/servlet/createdocaction</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>admindoaction</servlet-name>
+    <url-pattern>/servlet/admindoaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showdocsaction</servlet-name>
+    <url-pattern>/servlet/showdocsaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dodocsaction</servlet-name>
+    <url-pattern>/servlet/dodocsaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dopageaction</servlet-name>
+    <url-pattern>/servlet/dopageaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changedocaction</servlet-name>
+    <url-pattern>/servlet/changedocaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changepwdaction</servlet-name>
+    <url-pattern>/servlet/changepwdaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>domenuaction</servlet-name>
+    <url-pattern>/servlet/domenuaction</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>

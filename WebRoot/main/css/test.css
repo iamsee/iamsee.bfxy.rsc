@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+html,body {width:100%;height:100%; background:#f6efe5 url(../images/bg/bg_nav_top.png) repeat-x left top;}
+
+p{font: 33px;color: green;}
+.show{
+	font: 33px;color: green;
+	
+}

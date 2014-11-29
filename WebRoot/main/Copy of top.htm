@@ -1,0 +1,66 @@
+
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'tom.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="pager.css">
+	
+  
+    
+       <script type='text/javascript'>
+        function AddFavorite(sURL, sTitle) {
+            try {
+                window.external.addFavorite(sURL, sTitle);
+            }
+            catch (e) {
+                try {
+                    window.sidebar.addPanel(sTitle, sURL, "");
+                }
+                catch (e) {
+                    alert("鍔犲叆鏀惰棌澶辫触锛岃浣跨敤Ctrl+D杩涜娣诲姞");
+                }
+            }
+        }
+    </script>
+<script language="JavaScript" src="include/classbase.js" type="text/javascript"></script>
+<script language="JavaScript" src="include/windowopener.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="main/css/divwin.css">
+
+  </head>
+  
+  <body>
+      <!-- top -->
+   
+    
+ 
+    
+     <!-- banner -->
+    <div class="pager_gg_b">
+        <div class="gg_bd">
+            <ul>
+                <li> <a href="#" target="_blank"><img src="images/banner/zp.png" /></a></li>
+                <li>
+                    <img src="images/banner/1.jpg" /></li>
+                <li>
+                    <img src="images/banner/2.jpg" /></li>
+            </ul>
+        </div>
+        <div class="gg_hd">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <!-- body -->
+    <div class="pager_center">
+  </body>
+</html>
